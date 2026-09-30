@@ -1,0 +1,91 @@
+h1{
+    justify-content: center;
+    
+}
+tr:nth-child(even) {
+    background-color: #d9d9df;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+Hover effect
+tbody tr:hover {
+    background-color: #aaa;
+    transition: 0.3s;
+}
+
+th:first-child {
+    border-top-left-radius: 6px;
+}
+
+th:last-child {
+    border-top-right-radius: 6px;
+}
+
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 6px; 
+}  
+
+ Table
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+.table-container {
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th:first-child,
+td:first-child {
+    padding-left: 20px;
+}
+
+th:last-child,
+td:last-child {
+    padding-right: 20px;
+}
+tr:hover{
+    background-color: aqua;
+}
+
+.not{
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 2%;
+    padding-left: 60px;
+}
+
+.pass{
+    
+}
